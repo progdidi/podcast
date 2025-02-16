@@ -1,0 +1,99 @@
+.header {
+    padding: 24px 0;
+    &__inner {
+        display: flex;
+        gap: 123px;
+        align-items: center;
+        .menu {
+            &-list {
+                display: flex;
+                gap: 60px;
+                align-items: center;
+                font-weight: 700;
+            }
+        }
+        .header__buttons {
+            margin-left: auto;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            .header-btn {
+                border: 2px solid #000;
+                border-radius: 8px;
+                padding: 12px 24px;
+                font-weight: 700;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        &__inner {
+            gap: 50px;
+            .header__buttons {    
+                .header-btn {
+                    border-radius: 8px;
+                    padding: 8px 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 850px) {
+    .header {
+        position: relative;
+        &__inner {
+            .menu {                
+                &-list {
+                    transform: translateY(-200%);
+                    transition: all 0.3s;
+                    padding: 40px 0;
+                    flex-direction: column;
+                    width: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    background-color: #000;
+                    color: #fff;
+                    &.active {
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .header {
+        &__inner {
+            gap: 20px;
+            .header__buttons {
+                gap: 10px;
+                .header-btn {
+                    padding: 6px 12px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        &__inner {
+            gap: 15px;
+            .header__buttons {
+                gap: 8px;
+                .header-btn {
+                    padding: 4px 8px;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
