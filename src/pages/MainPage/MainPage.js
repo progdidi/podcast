@@ -21,6 +21,14 @@ import spotify1 from './images/about/spotify.svg';
 import prev from './images/reviews/prev.svg';
 import next from './images/reviews/next.svg';
 
+//membership
+import icon1 from './images/membership/icon1.svg';
+import icon2 from './images/membership/icon2.svg';
+import icon3 from './images/membership/icon3.svg';
+import icon4 from './images/membership/icon4.svg';
+import icon5 from './images/membership/icon5.svg';
+import icon6 from './images/membership/icon6.svg';
+
 const MainPage = () => {
     return ( 
         <>
@@ -96,6 +104,48 @@ const MainPage = () => {
                             <img src={next} alt="" className="reviews-slider__btn-img" />
                         </button>
                     </div>
+                </div>
+            </section>
+
+            <section className="membership">
+                <div className="container">
+                    <h2 className="membership__title section-title">Membership benefits</h2>
+                    <p className="membership__subtitle section-subtitle">Become our sponsor and get all benefits</p>
+
+                    <div className="membership__items">
+                        <div className="membership-item">
+                            <img src={icon1} alt="" className="membership-item__img" />
+                            <h6 className="membership-item__title item-title">Topic by Request</h6>
+                            <p className="membership-item__text">Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div className="membership-item">
+                            <img src={icon2} alt="" className="membership-item__img" />
+                            <h6 className="membership-item__title item-title">Exclusive Content</h6>
+                            <p className="membership-item__text">Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div className="membership-item">
+                            <img src={icon3} alt="" className="membership-item__img" />
+                            <h6 className="membership-item__title item-title">Join the Community</h6>
+                            <p className="membership-item__text">Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div className="membership-item">
+                            <img src={icon4} alt="" className="membership-item__img" />
+                            <h6 className="membership-item__title item-title">Livestreaming Access</h6>
+                            <p className="membership-item__text">Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div className="membership-item">
+                            <img src={icon5} alt="" className="membership-item__img" />
+                            <h6 className="membership-item__title item-title">Exclusive Episodes & Merch</h6>
+                            <p className="membership-item__text">Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                        <div className="membership-item">
+                            <img src={icon6} alt="" className="membership-item__img" />
+                            <h6 className="membership-item__title item-title">And much more!</h6>
+                            <p className="membership-item__text">Lorem ipsum dolor sit amet consectet pis cing elit, sed do eiusmod tempor.</p>
+                        </div>
+                    </div>
+
+                    <button className="membership__btn black-btn">SEE PRICING</button>
                 </div>
             </section>
         </>
