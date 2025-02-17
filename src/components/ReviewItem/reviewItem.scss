@@ -1,0 +1,30 @@
+.review-item {
+    width: 570px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 40px;
+    &__img {
+        margin-bottom: 24px;
+    }
+    &__text {
+        margin-bottom: 32px;
+        font-size: 22px;
+    }
+    &__author {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        &-img {
+            width: 48px;
+            height: 48px;
+        }
+        &-name {
+            font-size: 14px;
+        }
+        &-job {
+            font-weight: 700;
+            font-size: 14px;
+        }
+    }
+    
+}

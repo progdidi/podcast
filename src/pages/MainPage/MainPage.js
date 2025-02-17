@@ -1,5 +1,8 @@
 import './mainPage.scss';
 
+//components
+import ReviewItem from '../../components/ReviewItem/ReviewItem';
+
 //images
 //pltforms
 import google from './images/promo/platforms/google.svg';
@@ -13,6 +16,10 @@ import about2 from './images/about/about2.svg';
 import avatar from './images/about/avatar.png';
 import quote from './images/about/quote.svg';
 import spotify1 from './images/about/spotify.svg';
+
+//reviews
+import prev from './images/reviews/prev.svg';
+import next from './images/reviews/next.svg';
 
 const MainPage = () => {
     return ( 
@@ -66,6 +73,28 @@ const MainPage = () => {
                             <img src={spotify1} alt="" className="about-quote__author-brand" />
                             <p className="about-quote__author-job">Social Community Manager</p>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="reviews">
+                <div className="container">
+                    <h2 className="reviews__title section-title">What our listeners say</h2>
+                    <p className="reviews__subtitle section-subtitle">Their experience throughout every platform</p>
+
+                    <div className="reviews__items">
+                        <ReviewItem/>
+                        <ReviewItem/>
+                        <ReviewItem/>
+                    </div>
+
+                    <div className="reviews-slider__buttons">
+                        <button className="reviews-slider__btn">
+                            <img src={prev} alt="" className="reviews-slider__btn-img" />
+                        </button>
+                        <button className="reviews-slider__btn">
+                            <img src={next} alt="" className="reviews-slider__btn-img" />
+                        </button>
                     </div>
                 </div>
             </section>
