@@ -19,8 +19,8 @@ const PodcastCard = () => {
 
             <div className="podcast-card__detail">
                 <div className="podcast-card__tags">
-                    <p className="podcast-card__tag">covid-19</p>
-                    <p className="podcast-card__tag">health</p>
+                    <p className="tag">covid-19</p>
+                    <p className="tag">health</p>
                 </div>
 
                 <div className="podcast-card__host">

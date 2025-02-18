@@ -29,6 +29,7 @@ import icon4 from './images/membership/icon4.svg';
 import icon5 from './images/membership/icon5.svg';
 import icon6 from './images/membership/icon6.svg';
 import PodcastCard from '../../components/PodcastCard/PodcastCard';
+import ArticleCard from '../../components/ArticleCard/ArticleCard';
 
 const MainPage = () => {
     return ( 
@@ -233,6 +234,20 @@ const MainPage = () => {
                             </ul>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className="articles">
+                <div className="container">
+                    <h2 className="articles__title section-title">Article and News</h2>
+                    <p className="articles__subtitle section-subtitle">News, tips, tricks and more</p>
+
+                    <div className="articles__items">
+                        <ArticleCard/>
+                        <ArticleCard/>
+                    </div>
+
+                    <div className="articles__btn black-btn">BROWSE ALL</div>
                 </div>
             </section>
         </>
