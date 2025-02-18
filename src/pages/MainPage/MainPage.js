@@ -28,6 +28,7 @@ import icon3 from './images/membership/icon3.svg';
 import icon4 from './images/membership/icon4.svg';
 import icon5 from './images/membership/icon5.svg';
 import icon6 from './images/membership/icon6.svg';
+import PodcastCard from '../../components/PodcastCard/PodcastCard';
 
 const MainPage = () => {
     return ( 
@@ -146,6 +147,24 @@ const MainPage = () => {
                     </div>
 
                     <button className="membership__btn black-btn">SEE PRICING</button>
+                </div>
+            </section>
+
+            <section className="recent">
+                <div className="container">
+                    <h2 className="recent__title section-title">Recent Episodes</h2>
+                    <p className="recent__subtitle section-subtitle">Available on your favorite platform</p>
+
+                    <div className="recent__items">
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                    </div>
+
+                    <div className="recent__btn black-btn">BROWSE ALL EPISODES</div>
                 </div>
             </section>
         </>
