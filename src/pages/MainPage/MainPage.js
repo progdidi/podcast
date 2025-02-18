@@ -167,6 +167,74 @@ const MainPage = () => {
                     <div className="recent__btn black-btn">BROWSE ALL EPISODES</div>
                 </div>
             </section>
+
+            <section className="sponsor">
+                <div className="container">
+                    <h2 className="sponsor__title section-title">Become our sponsor</h2>
+                    <p className="sponsor__subtitle section-subtitle">Get exclusive episodes, merch and more</p>
+
+                    <div className="sponsor__items">
+                        <div className="sponsor-item">
+                            <div className="sponsor-item__main">
+                                <h4 className="sponsor-item__title">Member</h4>
+                                <p className="sponsor-item__descr">Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.</p>
+
+                                <div className="sponsor-item__buy">
+                                    <button className="sponsor-item__buy-btn black-btn">SUBSCRIBE</button>
+                                    <p className="sponsor-item__buy-price">$9.99 <br /> <span>/month </span> </p>
+                                </div>
+                            </div>
+                            <ul className="sponsor-item__list">
+                                <p className="sponsor-item__list-text">What’s included:</p>
+                                <li className="sponsor-item__list-item">Exclusive Content</li>
+                                <li className="sponsor-item__list-item">5% Discount on Merch</li>
+                                <li className="sponsor-item__list-item">Join the Community</li>
+                                <li className="sponsor-item__list-item">Livestreaming Access</li>
+                            </ul>
+                        </div>
+
+                        <div className="sponsor-item active">
+                            <div className="sponsor-item__main">
+                                <h4 className="sponsor-item__title">Family</h4>
+                                <p className="sponsor-item__descr">Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.</p>
+
+                                <div className="sponsor-item__buy">
+                                    <button className="sponsor-item__buy-btn black-btn">SUBSCRIBE</button>
+                                    <p className="sponsor-item__buy-price">$14.99 <br /> <span>/month </span> </p>
+                                </div>
+                            </div>
+                            <ul className="sponsor-item__list">
+                                <p className="sponsor-item__list-text">What’s included:</p>
+                                <li className="sponsor-item__list-item">Everything in Tier 1</li>
+                                <li className="sponsor-item__list-item">Free tickets to Events</li>
+                                <li className="sponsor-item__list-item">Limited Edition Merch</li>
+                                <li className="sponsor-item__list-item">Promote your Product</li>
+                                <li className="sponsor-item__list-item">Request Topic</li>
+                            </ul>
+                        </div>
+
+                        <div className="sponsor-item">
+                            <div className="sponsor-item__main">
+                                <h4 className="sponsor-item__title">Official</h4>
+                                <p className="sponsor-item__descr">Lorem ipsum dolor sit amet consectet cing elit, sed do eiusmod tempor.</p>
+
+                                <div className="sponsor-item__buy">
+                                    <button className="sponsor-item__buy-btn black-btn">SUBSCRIBE</button>
+                                    <p className="sponsor-item__buy-price">$29.99 <br /> <span>/month </span> </p>
+                                </div>
+                            </div>
+                            <ul className="sponsor-item__list">
+                                <p className="sponsor-item__list-text">What’s included:</p>
+                                <li className="sponsor-item__list-item">Everything in Tier 2</li>
+                                <li className="sponsor-item__list-item">Exclusive Badge on Livestreaming</li>
+                                <li className="sponsor-item__list-item">Become an Official Sponsor</li>
+                                <li className="sponsor-item__list-item">Early Access to All Episodes</li>
+                                <li className="sponsor-item__list-item">Free Stikers and Merch</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </>
      );
 }
