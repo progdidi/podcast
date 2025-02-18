@@ -31,6 +31,12 @@ import icon6 from './images/membership/icon6.svg';
 import PodcastCard from '../../components/PodcastCard/PodcastCard';
 import ArticleCard from '../../components/ArticleCard/ArticleCard';
 
+//app
+import googlePodc from './images/app/platforms/googlePodc.svg';
+import spotifyPodc from './images/app/platforms/spotifyPodc.svg';
+import youtubePodc from './images/app/platforms/youtubePodc.svg';
+
+
 const MainPage = () => {
     return ( 
         <>
@@ -248,6 +254,27 @@ const MainPage = () => {
                     </div>
 
                     <div className="articles__btn black-btn">BROWSE ALL</div>
+                </div>
+            </section>
+
+            <section className="app">
+                <div className="container">
+                    <p className="app__tag">BETA</p>
+                    <h2 className="app__title section-title">Available now Pod of Cast App</h2>
+                    <p className="app__subtitle section-subtitle">We just launched our podcast app!</p>
+
+                    <button className="app__btn black-btn">DOWNLOAD NOW</button>
+
+                    <p className="app__text">Content also available on:</p>
+
+                    <div className="app__platforms">
+                        <a href="" className="app__platforms-link">
+                            <img src={googlePodc} alt="" className="app__platforms-img" /></a>
+                        <a href="" className="app__platforms-link">
+                            <img src={spotifyPodc} alt="" className="app__platforms-img" /></a>
+                        <a href="" className="app__platforms-link">
+                            <img src={youtubePodc} alt="" className="app__platforms-img" /></a>
+                    </div>
                 </div>
             </section>
         </>
