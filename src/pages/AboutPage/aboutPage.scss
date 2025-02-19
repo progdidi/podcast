@@ -38,3 +38,40 @@
         }
     }
 }
+
+.about-numbers {
+    margin-bottom: 21px;
+    .about-numbers__inner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        .about-numbers__item {
+            border: 1.50px solid #000;
+            border-radius: 8px;
+            box-shadow: 6px 6px 0 0 #cd4631;
+            background: #fff;
+            padding: 59px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-main {
+                margin-bottom: 20px;
+                font-weight: 700;
+                font-size: 59px;
+                line-height: 120%;
+                letter-spacing: -0.02em;
+                color: var(--red-color);
+                span {
+                    color: #000;
+                }
+            }
+            &-descr {
+                text-align: center;
+                color: #4d4d4d;
+            }
+        }
+        
+    }
+    
+}

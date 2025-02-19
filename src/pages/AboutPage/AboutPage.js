@@ -1,3 +1,4 @@
+import AppSection from '../../components/AppSection/AppSection';
 import './aboutPage.scss';
 
 const AboutPage = () => {
@@ -15,6 +16,27 @@ const AboutPage = () => {
 
             </div>
         </section>
+
+        <div className="about-numbers">
+            <div className="container">
+                <div className="about-numbers__inner">
+                    <div className="about-numbers__item">
+                        <p className="about-numbers__item-main">76<span>K</span></p>
+                        <p className="about-numbers__item-descr">Community Members</p>
+                    </div>
+                    <div className="about-numbers__item">
+                        <p className="about-numbers__item-main">128<span>K</span></p>
+                        <p className="about-numbers__item-descr">Podcast Subscribers</p>
+                    </div>
+                    <div className="about-numbers__item">
+                        <p className="about-numbers__item-main">59<span>K</span></p>
+                        <p className="about-numbers__item-descr">Daily Listeners</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <AppSection/>
         </>
      );
 }
