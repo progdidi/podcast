@@ -1,6 +1,7 @@
 //components
 import AppSection from '../../components/AppSection/AppSection';
 import HostCard from '../../components/HostCard/HostCard';
+import SponsorCard from '../../components/SponsorCard/SponsorCard';
 
 
 import './aboutPage.scss';
@@ -76,6 +77,54 @@ const AboutPage = () => {
                 </div>
 
                 
+            </div>
+        </section>
+
+        <section className="sponsor">
+            <div className="container">
+                <h2 className="sponsor__title section-title">Our Sponsor</h2>
+                <p className="sponsor__subtitle section-subtitle">Our current official sponsor</p>
+
+                <div className="sponsor-slider">
+                    <SponsorCard/>
+                    <SponsorCard/>
+                </div>
+            </div>
+        </section>
+
+        <section className="message">
+            <div className="container">
+                <h2 className="message__title section-title">Get in touch</h2>
+                <p className="message__subtitle section-subtitle">Send your message to us</p>
+
+                <form action="" className="message-form">
+                    <div className="message-form__inner">
+                        <label htmlFor="" className="message-form__label">Full name *
+                            <input type="text" className="message-form__input" placeholder='Porter Sev|'/>
+                        </label>
+                        <label htmlFor="" className="message-form__label">Email *
+                            <input type="text" className="message-form__input" placeholder='johndoe@gmail.com'/>
+                        </label>
+                        <label htmlFor="" className="message-form__label">Phone *
+                            <input type="text" className="message-form__input" placeholder='Phone'/>
+                        </label>
+                        <label htmlFor="" className="message-form__label">Subject *
+                            <input type="text" className="message-form__input" placeholder='Subject...'/>
+                        </label>
+                        <label htmlFor="" className="message-form__label">Message *
+                            <textarea type="text" className="message-form__text" placeholder='Your message goes here...'/>
+                        </label>
+                    </div>
+
+                    <div className="message-form__bottom">
+                        <p className="message-form__text">*required</p>
+                        <button className="message-form__btn black-btn">SEND MESSAGE</button>
+                        <p className="message-form__text">Viverra at port accumsan. <span> Orci non</span></p>
+                    </div>
+                    
+                    
+                    
+                    </form>
             </div>
         </section>
 

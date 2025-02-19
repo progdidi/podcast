@@ -6,6 +6,7 @@
     box-shadow: 10px 10px 0 0 #000;
     padding: 16px;
     max-width: 570px;
+    transition: all 0.3s;
     .host-card__img {
         border-radius: 8px;
     }
@@ -51,6 +52,10 @@
             }
         }
         
+    }
+
+    &:hover {
+        transform: scale(1.05);
     }
     
 }

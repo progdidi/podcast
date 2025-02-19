@@ -1,0 +1,27 @@
+.sponsor-card {
+    border: 1.61px solid #000;
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 40px 17px 30px 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 570px;
+    &__img {
+        margin-bottom: 20px;
+    }
+
+    &__divider {
+        width: 355px;
+        height: 0.5px;
+        background-color: #4d4d4d;
+        margin-bottom: 30px;
+    }
+
+    &__descr {
+        font-size: 14px;
+        color: #4d4d4d;
+    }
+}
