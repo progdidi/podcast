@@ -1,0 +1,56 @@
+.host-card {
+    display: flex;
+    gap: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    box-shadow: 10px 10px 0 0 #000;
+    padding: 16px;
+    max-width: 570px;
+    .host-card__img {
+        border-radius: 8px;
+    }
+    .host-card__info {
+        &-img {
+            display: block;
+            margin-left: auto;
+            margin-bottom: 120px;
+        }
+        .host-card__subtitle {
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+        .host-card__title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 100%;
+            letter-spacing: -0.02em;
+            margin-bottom: 20px;
+        }
+        .host-card__text {
+            font-size: 14px;
+            color: #4d4d4d;
+            margin-bottom: 20px;
+        }
+        .host-card__social {
+            border-top: 0.5px solid #4d4d4d;
+            padding-top: 10px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 10px;
+            &-text {
+                padding-right: 9px;
+                font-weight: 700;
+                font-size: 12px;
+                color: #4d4d4d;
+            }
+            &-link {
+                width: 20px;
+                height: 20px;
+                display: block;
+            }
+        }
+        
+    }
+    
+}

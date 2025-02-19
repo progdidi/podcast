@@ -75,3 +75,54 @@
     }
     
 }
+
+.about-info {
+    padding: 140px 0;
+    background-color: #fff;
+    &__title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    &__subtitle {
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    &__img {
+        margin-bottom: 60px;
+    }
+    .about-history {
+        &__title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 140%;
+            letter-spacing: -0.02em;
+            margin-bottom: 80px;
+            text-align: center;
+        }
+        &__inner {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        &-text {
+            color: #4d4d4d;
+        }
+    }
+    
+    .about-hosts {
+        &__title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 140%;
+            letter-spacing: -0.02em;
+            margin-bottom: 80px;
+            text-align: center;
+        }
+        &__inner {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+    }
+   
+}
