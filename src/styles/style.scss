@@ -36,6 +36,16 @@ a {
     padding: 0 10px;
 }
 
+.page-title {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    span {
+        color: var(--red-color);
+    }
+}
+
 section {
     position: relative;
     &::after {

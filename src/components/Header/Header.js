@@ -1,3 +1,5 @@
+import { NavLink } from 'react-router-dom';
+
 import './header.scss';
 
 import logo from './logo.svg';
@@ -7,12 +9,12 @@ const Header = () => {
         <header className="header">
             <div className="container">
                 <div className="header__inner">
-                    <a href="" className="logo"><img src={logo} alt="" className="logo__img" /></a>
+                <NavLink to="/" className="logo"><img src={logo} alt="" className="logo__img" /></NavLink>
 
                     <nav className="menu">
                         <ul className="menu-list">
                             <li className="menu-list__item"><a href="" className="menu-list__link">Episodes</a></li>
-                            <li className="menu-list__item"><a href="" className="menu-list__link">About</a></li>
+                            <li className="menu-list__item"><NavLink to="/about" className="menu__list-link">About</NavLink></li>
                             <li className="menu-list__item"><a href="" className="menu-list__link">More</a></li>
                         </ul>
                     </nav>
