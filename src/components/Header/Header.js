@@ -15,6 +15,7 @@ const Header = () => {
                         <ul className="menu-list">
                             <li className="menu-list__item"><NavLink to="/podcast" className="menu__list-link">Episodes</NavLink></li>
                             <li className="menu-list__item"><NavLink to="/about" className="menu__list-link">About</NavLink></li>
+                            <li className="menu-list__item"><NavLink to="/podcast" className="menu__list-link">Podcast</NavLink></li>
                             <li className="menu-list__item"><a href="" className="menu-list__link">More</a></li>
                         </ul>
                     </nav>

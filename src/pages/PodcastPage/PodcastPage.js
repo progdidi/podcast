@@ -5,6 +5,7 @@ import example from './example.png';
 
 //components
 import PodcastCard from '../../components/PodcastCard/PodcastCard';
+import AppSection from '../../components/AppSection/AppSection';
 
 const PodcastPage = () => {
     return ( 
@@ -40,8 +41,33 @@ const PodcastPage = () => {
             </section>
 
             <section className="latest">
+                <div className="container">
+                    <h2 className="latest__title section-title">Latest Episode</h2>
 
+                    <div className="latest__tabs">
+                        <button className="latest__tabs-btn"> All</button>
+                        <button className="latest__tabs-btn">Business</button>
+                        <button className="latest__tabs-btn">Comedy</button>
+                        <button className="latest__tabs-btn">Education</button>
+                        <button className="latest__tabs-btn">Health</button>
+                        <button className="latest__tabs-btn">News</button>
+                        <button className="latest__tabs-btn">Tech</button>
+                    </div>
+                    
+                    <div className="latest__inner">
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                        <PodcastCard/>
+                    </div>
+                </div>
             </section>
+
+            <AppSection/>
         </>
         
      );
