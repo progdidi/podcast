@@ -103,3 +103,35 @@ section {
     color: #4d4d4d;
 }
 
+.latest {
+    padding: 140px 0;
+    background-color: #fff;
+    &__title {
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    &__tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 100px;
+        padding-bottom: 20px;
+        border-bottom: 1.5px solid #4d4d4d;
+        &-btn {
+            font-weight: 500;
+            font-size: 22px;
+            line-height: 160%;
+            color: #4d4d4d;
+            &.active {
+                font-weight: 700;
+                color: var(--red-color);
+            }
+        }
+    }
+    &__inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+

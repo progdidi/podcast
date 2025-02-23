@@ -1,0 +1,34 @@
+.blog-page {
+    padding-top: 64px;
+    padding-bottom: 117px;
+    position: relative;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .blog-page__title {
+            width: 484px;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .blog-page__text {
+            width: 70%;
+            margin: 0 auto;
+            text-align: center;
+            color: #4d4d4d;
+            margin-bottom: 60px;
+        }
+
+        .search-form {
+            margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -37px;
+            z-index: 10;
+        }
+    }
+}

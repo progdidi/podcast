@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import MainPage from "./pages/MainPage/MainPage";
 import AboutPage from "./pages/AboutPage/AboutPage";
 import PodcastPage from "./pages/PodcastPage/PodcastPage";
+import BlogPage from "./pages/BlogPage/BlogPage";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" element={<MainPage/>} />
             <Route path="/about" element={<AboutPage/>} />
             <Route path="/podcast" element={<PodcastPage/>} />
+            <Route path="/blog" element={<BlogPage/>} />
           </Routes>
         </main>
         <Footer/>
