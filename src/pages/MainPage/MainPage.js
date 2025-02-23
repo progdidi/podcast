@@ -14,9 +14,6 @@ import PodcastItem from '../../components/PodcastItem/PodcastItem';
 //about
 import about1 from './images/about/about1.svg';
 import about2 from './images/about/about2.svg';
-import avatar from './images/about/avatar.png';
-import quote from './images/about/quote.svg';
-import spotify1 from './images/about/spotify.svg';
 
 //reviews
 import prev from './images/reviews/prev.svg';
@@ -31,6 +28,7 @@ import icon5 from './images/membership/icon5.svg';
 import icon6 from './images/membership/icon6.svg';
 import PodcastCard from '../../components/PodcastCard/PodcastCard';
 import ArticleCard from '../../components/ArticleCard/ArticleCard';
+import QuoteSection from '../../components/QuoteSection/QuoteSection';
 
 
 
@@ -76,18 +74,7 @@ const MainPage = () => {
                         </div>
                     </div>
 
-                    <div className="about-quote">
-                        <img src={quote} alt="" className="about-quote__img" />
-
-                        <p className="about-quote__text">One of the best daily podcasts that covers every topic on Spotify.</p>
-
-                        <div className="about-quote__author">
-                            <img src={avatar} alt="" className="about-quote__author-img" />
-                            <p className="about-quote__author-name">John Smith,</p>
-                            <img src={spotify1} alt="" className="about-quote__author-brand" />
-                            <p className="about-quote__author-job">Social Community Manager</p>
-                        </div>
-                    </div>
+                    <QuoteSection/>
                 </div>
             </section>
 

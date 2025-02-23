@@ -1,0 +1,68 @@
+.about-quote {
+    background-color: var(--background-color);
+    border-radius: 8px;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    &__img {
+        margin-bottom: 48px;
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 140%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        width: 735px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    &__author {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        &-img {
+            width: 48px;
+            height: 48px;
+        }
+        &-name {
+            font-size: 14px;
+        }
+        &-brand {
+            width: 16px;
+            height: 16px;
+        }
+        &-job {
+            font-weight: 700;
+            font-size: 14px;
+
+        }
+    }
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 120px;
+        height: 120px;
+        background-image: url('./images/quoteBg1.svg');
+        background-repeat: no-repeat;
+        left: -60px;
+        bottom: 49px;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 200px;
+        height: 200px;
+        background-image: url('./images/quoteBg2.svg');
+        background-repeat: no-repeat;
+        top: -100px;
+        right: -100px;
+    }
+    
+}
