@@ -20,9 +20,13 @@ const ArticlePage = () => {
                     </div>
 
                     <div className="article-page__inner">
-                        <p className="article-page__subtitle"></p>
-                        <h3 className="article-page__title section__title"></h3>
-                        <div className="article-page__tags"></div>
+                        <p className="article-page__subtitle">TIPS & TRICKS</p>
+                        <h3 className="article-page__title section-title">Doodle Artwork 101</h3>
+                        <div className="article-page__tags">
+                            <p className="tag">art</p>
+                            <p className="tag">tips and trick</p>
+                            <p className="tag">creative</p>
+                        </div>
                         <SocialList/>
                     </div>
                     
@@ -52,7 +56,7 @@ const ArticlePage = () => {
 
                     <div className="article-info__lists">
                         <ul className="article-info__bullet-list">
-                            <h6 className="article-info__lists item-title">Bullet list example:</h6>
+                            <h6 className="article-info__lists-title item-title">Bullet list example:</h6>
                             <li className="article-info__bullet-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam pellentesque at bibendum euismod tellus duis curs
                             us dignissim odio. Sit vulputate et integer in.</li>
 
@@ -63,7 +67,7 @@ const ArticlePage = () => {
                         </ul>
                         
                         <ol className="article-info__num-list">
-                            <h6 className="article-info__lists item-title">Number list example:</h6>
+                            <h6 className="article-info__lists-title item-title">Number list example:</h6>
                             <li className="article-info__num-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam pellentesque at bibendum euismod tellus duis curs
                             us dignissim odio. Sit vulputate et integer in.</li>
 
@@ -90,6 +94,8 @@ const ArticlePage = () => {
                         <ArticleCard/>
                         <ArticleCard/>
                     </div>
+
+                    <button className="related__btn black-btn">BROWSE ALL</button>
                 </div>
             </section>
 
