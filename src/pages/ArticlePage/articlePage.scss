@@ -132,3 +132,12 @@
         margin: 0 auto;
     }
 }
+
+@media (max-width: 760px) {
+    .related {
+        &__inner {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

@@ -143,3 +143,17 @@ section {
     }
 }
 
+@media (max-width: 900px) {
+    .section-title{
+        font-size: 45px;
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-title{
+        font-size: 30px;
+        line-height: 120%;
+    }
+}
+

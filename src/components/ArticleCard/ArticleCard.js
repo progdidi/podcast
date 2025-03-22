@@ -1,11 +1,13 @@
 import './articleCard.scss';
 
+import { NavLink } from 'react-router-dom';
+
 //images
 import example from './example.png';
 
 const ArticleCard = () => {
     return ( 
-        <a href="" className="article-card">
+        <NavLink to="/article" className="article-card">
             <img src={example} alt="" className="article-card__img" />
             <h6 className="article-card__subtitle">TIPS & TRICK</h6>
             <h4 className="article-card__title">Doodle artwork 101</h4>
@@ -19,7 +21,7 @@ const ArticleCard = () => {
 
                 <p className="article-card__date">Sep 12, 2021</p>
             </div>
-        </a>
+        </NavLink>
      );
 }
  

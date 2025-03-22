@@ -66,3 +66,30 @@
     }
     
 }
+
+@media (max-width: 900px) {
+    .about-quote {
+        &__text {
+            width: 80%;
+            line-height: 120%;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .about-quote {
+        padding: 40px 10px;
+        &__img {
+            margin-bottom: 30px;
+        }
+        &__text {
+            font-size: 28px;
+            width: 90%;
+        }
+
+        &__author {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }
+}

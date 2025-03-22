@@ -113,6 +113,7 @@
 @media (max-width: 600px) {
     .footer {
         .footer-inner {
+            padding: 50px 0;
             .footer__links {
                 width: 100%;
                 &-list {
@@ -129,6 +130,7 @@
             align-items: center;
             text-align: center;
             gap: 30px;
+            padding-bottom: 20px;
         }
     }
 }
